@@ -52,12 +52,11 @@ int main(int argc, char* argv[])
         int client_internet_socket = connection(internet_socket);
         execution(client_internet_socket);
     }
-    //cleanup( internet_socket, client_internet_socket );
-    //Don't think I need these anymore, not sure but hey who cares.
 
-    //OSCleanup();
 
-    return 0;
+  
+    
+
 }
 
 int initialization()
@@ -153,7 +152,7 @@ char ip_address[INET6_ADDRSTRLEN];
 
 int connection(int internet_socket) {
     // Print a message indicating the server is waiting for a connection
-    printf("----Waiting for connection-------\n----Get ready to be destroyed----\n");
+    printf("Waiting \n ready to get spammed?\n");
 
     // Declare a sockaddr_storage structure to hold the client's address information
     struct sockaddr_storage client_internet_address;
@@ -206,9 +205,9 @@ int connection(int internet_socket) {
     }
 
     // Write the connection information to the log file
-    fprintf(log_file, "------------------------\n");
+   
     fprintf(log_file, "Connection from %s\n", ip_address);
-    fprintf(log_file, "------------------------\n");
+   
 
     // Close the log file
     fclose(log_file);
@@ -271,12 +270,12 @@ void http_get() {
 
         response[bytes_received] = '\0';
 
-        fprintf(file, "------------------------\n");
+      
         fprintf(file, "Response from GET request:\n%s\n", response);
-        fprintf(file, "------------------------\n");
-        printf("------------------------\n");
+      
+      
         printf("Response from GET request:\n%s\n", response);
-        printf("------------------------\n");
+     
     }
 
     fclose(file);
@@ -291,7 +290,7 @@ void* send_message(void* arg) {
      
 
 
-    printf("\nStarted Attack\n");
+    printf("\nStarted spam\n");
     while (1) {
         int bytes_sent = send(client_internet_socket, message, strlen(message), 0);
         if (bytes_sent == -1) {
@@ -353,13 +352,13 @@ void execution(int client_internet_socket) {
         close(client_internet_socket);
         exit(4);
     }
-    fprintf(log_file, "------------------------\n");
+   
     fprintf(log_file, "Total bytes delivered: %d\n", total_bytes_sent);
-    fprintf(log_file, "------------------------\n");
+ 
     fclose(log_file);
-    printf("------------------------\n");
+
     printf("Total bytes delivered: %d\n", total_bytes_sent);
-    printf("------------------------\n");
+ 
 
     // Close the client connection
     close(client_internet_socket);
