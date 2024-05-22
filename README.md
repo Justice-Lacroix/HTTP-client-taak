@@ -27,3 +27,5 @@ To compile the server program, use the following command:
 
 ```sh
 gcc -o tcp_server main.c -pthread
+
+./tcp_server
