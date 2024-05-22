@@ -1,0 +1,140 @@
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:30:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRST
+------------------------
+Total bytes delivered: 1080
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:33:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRST
+------------------------
+Total bytes delivered: 2232
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:39:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRST
+------------------------
+Total bytes delivered: 132
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:43:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRST
+------------------------
+Total bytes delivered: 732
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:43:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRSTtttt
+------------------------
+Total bytes delivered: 942
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:50:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRSTtttt
+------------------------
+Total bytes delivered: 516
+------------------------
+------------------------
+Connection from ::1
+------------------------
+------------------------
+Response from GET request:
+HTTP/1.1 200 OK
+Date: Wed, 22 May 2024 17:52:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"success","country":"Belgium","countryCode":"BE","region":"VLG","regionName":"Flanders","city":"Overpelt","zip":"3900","lat":51.2106,"lon":5.4157,"timezone":"Europe/Brussels","isp":"Telenet Operaties N.V.","org":"Telenet","as":"AS6848 Telenet BV","query":"84.195.33.19"}
+------------------------
+Message from client: TRSTtttt
+------------------------
+Total bytes delivered: 156
+------------------------
